@@ -230,11 +230,8 @@
                                         <rect key="frame" x="0.0" y="416" width="414" height="103"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3X-8f-lis">
-                                                <rect key="frame" x="0.0" y="0.0" width="206" height="103"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="206.5" height="103"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="206" id="eRC-IU-yMz"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                                 <state key="normal" title="0">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -244,11 +241,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAi-Pg-6St">
-                                                <rect key="frame" x="207" y="0.0" width="103" height="103"/>
+                                                <rect key="frame" x="207.5" y="0.0" width="103" height="103"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="103" id="lsE-FO-wFg"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="52"/>
                                                 <state key="normal" title=".">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -258,11 +252,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AE-ie-eWD">
-                                                <rect key="frame" x="311" y="0.0" width="103" height="103"/>
+                                                <rect key="frame" x="311.5" y="0.0" width="102.5" height="103"/>
                                                 <color key="backgroundColor" red="1" green="0.58883791549999998" blue="0.25041520509999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="103" id="Pga-vQ-XBy"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="52"/>
                                                 <state key="normal" title="=">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -278,7 +269,10 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="DAi-Pg-6St" firstAttribute="centerX" secondItem="tBp-5f-4yk" secondAttribute="centerX" id="37Y-ew-cfJ"/>
+                                    <constraint firstItem="0AE-ie-eWD" firstAttribute="centerX" secondItem="BOt-k5-f4a" secondAttribute="centerX" id="R6G-wc-1iP"/>
                                     <constraint firstAttribute="width" constant="414" id="cTE-z0-HpP"/>
+                                    <constraint firstItem="i3X-8f-lis" firstAttribute="trailing" secondItem="GI0-fC-1z8" secondAttribute="trailing" id="dpe-II-xHd"/>
                                     <constraint firstAttribute="height" constant="519" id="hMD-ic-Yag"/>
                                 </constraints>
                             </stackView>
