@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     @IBAction func pressZero() {
         if labelTextPress.text == "0" && labelTextPress.text!.count == 1 || rezult == 0 {
             labelTextPress.text! = "0"
+            rezult = 1
         } else if labelTextPress.text!.count >= 1 {
             labelTextPress.text! += "0"
             
@@ -34,6 +35,7 @@ class ViewController: UIViewController {
     @IBAction func pressOne() {
         if labelTextPress.text == "0" || rezult == 0 {
             labelTextPress.text! = "1"
+            rezult = 1
         } else {
             labelTextPress.text! += "1"
         }
@@ -44,6 +46,7 @@ class ViewController: UIViewController {
     @IBAction func pressTwo() {
         if labelTextPress.text == "0" || rezult == 0 {
             labelTextPress.text! = "2"
+            rezult = 1
         } else {
             labelTextPress.text! += "2"
         }
@@ -51,8 +54,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pressThree() {
-        if labelTextPress.text == "0" || rezult == 0 {
+        if labelTextPress.text == "0" || rezult == 0{
             labelTextPress.text! = "3"
+            rezult = 1
         } else {
             labelTextPress.text! += "3"
         }
@@ -61,6 +65,7 @@ class ViewController: UIViewController {
     
     @IBAction func pressFour() {
         if labelTextPress.text == "0" || rezult == 0 {
+            rezult = 1
             labelTextPress.text! = "4"
         } else {
             labelTextPress.text! += "4"
@@ -69,7 +74,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pressFive() {
-        if labelTextPress.text == "0" || rezult == 0 {
+        if labelTextPress.text == "0"  || rezult == 0 {
+            rezult = 1
             labelTextPress.text! = "5"
         } else {
             labelTextPress.text! += "5"
@@ -79,6 +85,7 @@ class ViewController: UIViewController {
     
     @IBAction func pressSix() {
         if labelTextPress.text == "0" || rezult == 0 {
+            rezult = 1
             labelTextPress.text! = "6"
         } else {
             labelTextPress.text! += "6"
@@ -88,6 +95,7 @@ class ViewController: UIViewController {
     
     @IBAction func pressSeven() {
         if labelTextPress.text == "0" || rezult == 0 {
+            rezult = 1
             labelTextPress.text! = "7"
         } else {
             labelTextPress.text! += "7"
@@ -97,6 +105,7 @@ class ViewController: UIViewController {
     
     @IBAction func pressEight() {
         if labelTextPress.text == "0" || rezult == 0 {
+            rezult = 1
             labelTextPress.text! = "8"
         } else {
             labelTextPress.text! += "8"
@@ -106,6 +115,7 @@ class ViewController: UIViewController {
     
     @IBAction func pressNine() {
         if labelTextPress.text == "0" || rezult == 0 {
+            rezult = 1
             labelTextPress.text! = "9"
         } else {
             labelTextPress.text! += "9"
