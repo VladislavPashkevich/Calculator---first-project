@@ -132,6 +132,7 @@ class ViewController: UIViewController {
         }
         if n != "1" || labelTextPress.text! == "0" {
             labelTextPress.text! += "."
+            rezult = 1
             buttonAc.setTitle("C", for: .normal)
         }
     }
